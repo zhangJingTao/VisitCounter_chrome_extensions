@@ -1,0 +1,20 @@
+{
+    "name": "visitCounter",
+    "description": "匿名统计",
+    "version": "1.0",
+    "permissions": [
+        "activeTab","tabs",
+		"http://*/*"
+    ],
+    "icons": {
+        "16": "save4.png",
+        "48": "save4.png",
+        "128": "save4.png"
+    },
+    "manifest_version": 2,
+	"background": {
+        "page": "background.html",
+        "persistent": false
+    },
+	"options_page":"option.html"
+}
